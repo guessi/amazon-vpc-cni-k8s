@@ -1,6 +1,6 @@
 module github.com/aws/amazon-vpc-cni-k8s
 
-go 1.22.3
+go 1.23.0
 
 require (
 	github.com/apparentlymart/go-cidr v1.1.0
@@ -45,6 +45,7 @@ require (
 	k8s.io/apimachinery v0.31.3
 	k8s.io/cli-runtime v0.31.3
 	k8s.io/client-go v0.31.3
+	k8s.io/klog/v2 v2.130.1
 	sigs.k8s.io/controller-runtime v0.19.1
 )
 
@@ -171,7 +172,7 @@ require (
 	go.uber.org/multierr v1.11.0 // indirect
 	golang.org/x/crypto v0.31.0 // indirect
 	golang.org/x/exp v0.0.0-20240719175910-8a7402abbf56 // indirect
-	golang.org/x/oauth2 v0.24.0 // indirect
+	golang.org/x/oauth2 v0.27.0 // indirect
 	golang.org/x/sync v0.10.0 // indirect
 	golang.org/x/term v0.27.0 // indirect
 	golang.org/x/text v0.21.0 // indirect
@@ -185,7 +186,6 @@ require (
 	k8s.io/apiextensions-apiserver v0.31.3 // indirect
 	k8s.io/apiserver v0.31.3 // indirect
 	k8s.io/component-base v0.31.3 // indirect
-	k8s.io/klog/v2 v2.130.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20240228011516-70dd3763d340 // indirect
 	k8s.io/kubectl v0.31.3 // indirect
 	k8s.io/utils v0.0.0-20240711033017-18e509b52bc8 // indirect
